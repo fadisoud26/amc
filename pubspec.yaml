@@ -1,0 +1,101 @@
+name: alwadi_medical_center
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.2.19
+##  flutter_native_splash: ^2.3.1
+  liquid_swipe: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+  get: ^4.6.5
+  intl: ^0.18.1
+  pin_code_fields: ^8.0.1
+  scheduled_timer: ^2.0.1
+  http: ^1.1.0
+  image_picker: ^1.0.2
+  animated_notch_bottom_bar: ^1.0.0
+  shimmer: ^3.0.0
+  feather_icons: ^1.2.0
+  unicons: ^2.1.1
+  carbon_icons: ^0.0.1+2
+  font_awesome_flutter: ^10.5.0
+  rating_dialog: ^2.0.4
+  flutter_rating_bar: ^4.0.1
+  calendar_timeline: ^1.1.2
+  get_storage: ^2.1.1
+  carousel_slider: ^4.2.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets/logo/amc_logo.png
+  image_dark: assets/logo/amc_logo.png
+  #background_image: "assets/images/splash.png"
+  android: true
+  ios: true
+  web: true
+  android_gravity: fill
+  ios_content_mode: scaleAspectFill
+  
+  android_12:
+    icon_background_color: "#f7f6f1"
+    icon_background_color_dark: "#272727"
+    image: assets/logo/amc_logo.png
+    image_dark: assets/logo/amc_logo.png
+    #color: "#42a5f5"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/logo/
+    - assets/sectionsImage/
+    - assets/slideImage/
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/playfair/PlayfairDisplay-Black.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-BlackItalic.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-Bold.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-BoldItalic.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-ExtraBold.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-Italic.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-Medium.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-MediumItalic.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-Regular.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-SemiBold.ttf
+        - asset: assets/fonts/playfair/PlayfairDisplay-SemiBoldItalic.ttf
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/rubik/Rubik-Light.ttf
+        - asset: assets/fonts/rubik/Rubik-Regular.ttf
+        - asset: assets/fonts/rubik/Rubik-Medium.ttf
+        - asset: assets/fonts/rubik/Rubik-SemiBold.ttf
+        - asset: assets/fonts/rubik/Rubik-Bold.ttf
+        - asset: assets/fonts/rubik/Rubik-ExtraBold.ttf
+        - asset: assets/fonts/rubik/Rubik-Black.ttf
+        - asset: assets/fonts/rubik/Rubik-LightItalic.ttf
+        - asset: assets/fonts/rubik/Rubik-Italic.ttf
+        - asset: assets/fonts/rubik/Rubik-MediumItalic.ttf
+        - asset: assets/fonts/rubik/Rubik-SemiBoldItalic.ttf
+        - asset: assets/fonts/rubik/Rubik-BoldItalic.ttf
+        - asset: assets/fonts/rubik/Rubik-ExtraBoldItalic.ttf
+        - asset: assets/fonts/rubik/Rubik-BlackItalic.ttf
