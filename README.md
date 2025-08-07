@@ -1,5 +1,4 @@
 # amc
 
-A new Flutter project.
 
-[Download/View Demo Video](./alwadi medical center.mp4)
+📽️ [Download/View Demo Video](./demo-video.mp4)
